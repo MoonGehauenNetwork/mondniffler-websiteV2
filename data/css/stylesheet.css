@@ -1,0 +1,413 @@
+body h1{
+    font-family: 'Brygada 1918', serif;
+    color: red;
+    margin: 0%;
+    padding: 0%;
+    /*height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: #222;*/
+}
+
+body {
+    /*background: linear-gradient(to right, #001dfb, #04ede1 ) no-repeat;
+    background: linear-gradient(to right, #001dfb, #04ede1 );
+    background: linear-gradient(to right, #000000, #444444 );*/
+    font-family: 'Ubuntu Mono', monospace;
+}
+header {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Audiowide';
+}
+main img {
+    width: 100%;
+    height: 90%;
+    max-height: 800px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+main video {
+    width: 100%;
+    height: 90%;
+    max-height: 800px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+main {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.main-text {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    padding: 2%;
+    background: linear-gradient(to right, #000000, #444444 ) no-repeat;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    /*margin: 4%;*/
+    border-radius: 20px;
+}
+.main-navbar {
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: 1,5%;
+    background: linear-gradient(to top, #e6c406, #f1ff34 ) no-repeat;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    /*margin: 4%;*/
+    border-radius: 5px;
+}
+.main-navbar a:hover {
+    color: rgb(246, 0, 0);
+}
+.main-navbar a {
+    text-decoration: none;
+}
+.main-text-img {
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding: 2%;
+    background-color: white;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+
+}
+a.drei {
+    text-decoration: none;
+    border-bottom: .4em double red;
+}
+#mail {
+    text-decoration: none;
+    color: rgb(2, 245, 253);
+}
+#contact-area1{
+    text-align: center;
+}
+.main-text-contact {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+.img150
+{
+float: left;
+width: 150px;
+/*padding: 3px;*/
+font-size: 0.7em;
+}
+
+
+#video_background {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -1000;
+	/*overflow: hidden;*/
+}
+#video_pattern {
+	position: fixed;
+	opacity: 0.5;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+#footer {
+    position: absolute;
+    bottom: 0px;
+}
+html, body {
+    height: 100%;
+}
+#wrapper {
+    position: relative;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    padding-bottom: 5%;
+}
+#content {
+    padding-bottom: 100px;
+}
+footer {
+    /*position:absolute;*/
+    text-align: center;
+    font-size: 17px;
+    padding: 1%;
+    /*bottom: 0;*/
+    width: 100%;
+    background-color: gray;
+    text-decoration: none;
+    color: black;
+}
+
+
+#background-video {
+    /*width: 100vw;
+    height: 100vh;*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+h1, h2 {
+    color: white;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: center;
+} 
+h1 {
+    font-size: 6rem;
+    margin-top: 30vh;
+}
+  
+h2 { font-size: 3rem; }
+
+@media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: linear-gradient(to right, #001dfb, #04ede1 ) no-repeat;
+      background-size: cover;
+    }
+}
+
+#test1 img{
+    float: left;
+    /*background-size: cover;*/
+    color: #000; text-shadow: 1px 1px 0 #fff;
+    border-radius: 20%;
+    border: 10px;
+    border-color: #000;
+    margin-right: 15%;
+    margin-left: 5%;
+    display: flex;
+}
+#test2 img{
+    float: right;
+    /*background-size: cover;*/
+    color: #000; text-shadow: 1px 1px 0 #fff;
+    border-radius: 20%;
+    border: 10px;
+    border-color: #000;
+    margin-left: 15%;
+    margin-right: 5%;
+    display: flex;
+}
+#test img{
+    /*margin: 5%;*/
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 1%;
+    width: 25%;
+    height: 25%;
+}
+#test {
+    /*margin: 5%;*/
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10%;
+}
+
+
+
+
+a,
+a:hover,
+a:focus {
+    /*text-decoration: none;*/
+    color: white;
+}
+img,
+img:hover,
+img:focus {
+    text-decoration: none;
+    color: black;
+    border: 10px;
+    border-color: #000
+}
+:hover,
+:focus {
+    /*text-decoration: none;*/
+    border: 10px;
+    border-color: #000
+}
+:hover img,
+:focus img{
+    text-decoration: none;
+    color: black;
+    border: 10px;
+    border-color: #000
+}
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    /*background: url("stgallen-big.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;*/
+}	
+.container {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 150px;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-text-fill-color:transparent;
+    -webkit-text-stroke:8px white;
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+#seite {
+    position: relative;
+    min-height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#inhalt {
+    padding-bottom: 2em;
+}
+
+#fussbereich {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: yellow;
+    height: 2em;
+}
+
+
+/*DROPDOWN*/
+ /* Dropdown Button */
+ .dropbtn {
+    background-color: #04aa6d00;
+    color: white;
+    border: none;
+    font-size: 20px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background: linear-gradient(to top, #f1ff34, #e6c406 ) no-repeat;
+    min-width: 100px;
+    box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: rgba(221, 221, 221, 0);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e4100;}
+
+/*DD VA*/
+.dropbtn-va {
+    background-color: #04aa6d00;
+    color: white;
+    border: none;
+    font-size: 20px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown-va {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content-va {
+    display: none;
+    position: absolute;
+    background: linear-gradient(to top, #f1ff34, #e6c406 ) no-repeat;
+    min-width: 180px;
+    text-align: left;
+    padding-left: 5%;
+    box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content-va a {
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content-va a:hover {background-color: rgba(221, 221, 221, 0);}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown-va:hover .dropdown-content-va {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown-va:hover .dropbtn-va {background-color: #3e8e4100;} 

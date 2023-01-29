@@ -1,0 +1,27 @@
+nav {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Audiowide';
+}
+nav h1{
+    font-size: 70%;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    color: goldenrod;
+    margin-top: 1%;
+}
+nav h1:hover{
+    font-size: 70%;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    color: silver;
+}
+#nav-bar{
+    background: linear-gradient(to left, #610b0b, #0f42af);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    float: none;
+}

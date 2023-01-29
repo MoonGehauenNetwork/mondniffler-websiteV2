@@ -1,0 +1,1 @@
+console.log("slider.js wurde geladen")

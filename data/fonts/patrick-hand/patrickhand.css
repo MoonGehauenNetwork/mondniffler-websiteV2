@@ -1,0 +1,14 @@
+/* patrick-hand-regular - vietnamese_latin-ext_latin */
+@font-face {
+    font-family: 'Patrick Hand';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./patrick-hand-v18-vietnamese_latin-ext_latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('./patrick-hand-v18-vietnamese_latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./patrick-hand-v18-vietnamese_latin-ext_latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./patrick-hand-v18-vietnamese_latin-ext_latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./patrick-hand-v18-vietnamese_latin-ext_latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./patrick-hand-v18-vietnamese_latin-ext_latin-regular.svg#PatrickHand') format('svg'); /* Legacy iOS */
+  }
+  
