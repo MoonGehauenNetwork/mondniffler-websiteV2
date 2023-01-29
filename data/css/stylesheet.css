@@ -9,12 +9,23 @@ body h1{
     place-items: center;
     background: #222;*/
 }
+nav {
+    margin-right: 10%;
+    margin-left: 10%;
+}
 
 body {
     /*background: linear-gradient(to right, #001dfb, #04ede1 ) no-repeat;
     background: linear-gradient(to right, #001dfb, #04ede1 );
     background: linear-gradient(to right, #000000, #444444 );*/
     font-family: 'Ubuntu Mono', monospace;
+    cursor: default;
+}
+body a {
+    cursor: default;
+}
+body a:hover {
+    cursor: default;
 }
 header {
     font-size: 30px;
@@ -23,8 +34,8 @@ header {
 }
 main img {
     width: 100%;
-    height: 90%;
-    max-height: 800px;
+    /*height: 90%;
+    max-height: 800px;*/
     margin-left: 0%;
     margin-right: 0%;
 }
@@ -41,28 +52,39 @@ main {
     font-size: 25px;
 }
 .main-text {
-    text-align: center;
+    text-align: left;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 4%;
     margin-bottom: 2%;
     padding: 2%;
+    color: white;
     background: linear-gradient(to right, #000000, #444444 ) no-repeat;
     text-decoration: none;
     font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
     /*margin: 4%;*/
     border-radius: 20px;
 }
+.main-text h2 {
+    font-family: 'Patrick Hand', cursive;
+    text-align: left;
+    font-size: 30px;
+    color: silver;
+}
 .main-navbar {
+    display: block;
+    box-sizing: border-box;
+    float: none;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 1%;
     margin-bottom: 2%;
     padding: 1,5%;
-    background: linear-gradient(to top, #e6c406, #f1ff34 ) no-repeat;
+    background: linear-gradient(to top, #01eeff00, #0b40bd00 ) no-repeat;
     text-decoration: none;
     font-family: 'Patrick Hand', cursive;
     /*margin: 4%;*/
@@ -70,9 +92,11 @@ main {
 }
 .main-navbar a:hover {
     color: rgb(246, 0, 0);
+    font-size: 30px;
 }
 .main-navbar a {
     text-decoration: none;
+    font-size: 30px;
 }
 .main-text-img {
     text-align: center;
@@ -190,10 +214,10 @@ h1 {
   
 h2 { font-size: 3rem; }
 
-@media (max-width: 750px) {
+@media (max-width: 1px) {
     #background-video { display: none; }
     body {
-      background: linear-gradient(to right, #001dfb, #04ede1 ) no-repeat;
+      background: linear-gradient(to right, #001dfb00, #04ede100 ) no-repeat;
       background-size: cover;
     }
 }
@@ -324,48 +348,39 @@ html, body {
     height: 2em;
 }
 
-
-/*DROPDOWN*/
- /* Dropdown Button */
+/*
  .dropbtn {
     background-color: #04aa6d00;
     color: white;
     border: none;
     font-size: 20px;
   }
-  
-  /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
     display: inline-block;
     font-size: 20px;
   }
   
-  /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
     position: absolute;
-    background: linear-gradient(to top, #f1ff34, #e6c406 ) no-repeat;
+    background: linear-gradient(to bottom, #04ede1, #001dfb ) no-repeat;
     min-width: 100px;
     box-shadow: 0px 8px 10px 0px rgba(0,0,0,0.2);
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     z-index: 1;
   }
-  
-  /* Links inside the dropdown */
+
   .dropdown-content a {
     text-decoration: none;
     display: block;
   }
   
-  /* Change color of dropdown links on hover */
   .dropdown-content a:hover {background-color: rgba(221, 221, 221, 0);}
   
-  /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
+ 
   .dropdown:hover .dropbtn {background-color: #3e8e4100;}
 
 /*DD VA*/
@@ -387,7 +402,7 @@ html, body {
   .dropdown-content-va {
     display: none;
     position: absolute;
-    background: linear-gradient(to top, #f1ff34, #e6c406 ) no-repeat;
+    background: linear-gradient(to bottom, #04ede1, #001dfb ) no-repeat;
     min-width: 180px;
     text-align: left;
     padding-left: 5%;
@@ -410,4 +425,4 @@ html, body {
   .dropdown-va:hover .dropdown-content-va {display: block;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown-va:hover .dropbtn-va {background-color: #3e8e4100;} 
+  .dropdown-va:hover .dropbtn-va {background-color: #3e8e4100;}
