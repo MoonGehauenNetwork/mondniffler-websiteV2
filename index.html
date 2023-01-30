@@ -22,6 +22,7 @@
         <link rel="stylesheet" type="text/css" href="./data/css/slideshow.css">
         <link rel="stylesheet" type="text/css" href="./data/css/nav.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
         <!--Metadata about this Website-->
         <meta name="description" content="Herzlich willkommen auf der Kanalwebsite für Mondniffler, hier könnt ihr anklicken zu welcher der beiden Websites ihr weitergeleitet werden wollt." />
@@ -81,7 +82,8 @@
                             <button class="dropbtn" onclick="window.location.href = './index.html';">
                                 <span class="material-symbols-outlined">
                                     home
-                                </span>  Home</button>
+                                </span>  Kamin
+                            </button>
                             <div class="dropdown-content">
                             </div>
                         </div>
@@ -93,11 +95,15 @@
                                     </span>  Biblikothek
                             </button>
                             <div class="mc-dropdown-content">
-                                <a href="#">Gringotts
+                                <a href="#">Minecraft
                                 </a>
-                                <a href="#"> Weasleys Zauberhaft Zauber scherze
+                                <a href="#">FFs
                                 </a>
-                                <a href="#">  Troffender Kessel
+                                <a href="#">Let's Plays
+                                </a>
+                                <a href="#">Harry Potter Algemein
+                                </a>
+                                <a href="#">Sonstiges
                                 </a>
                             </div>
                         </div>
@@ -121,7 +127,11 @@
                             </div>
                         </div>
                         <div class="dropdown">
-                            <button class="dropbtn">§ Regeln</button>
+                            <button class="dropbtn" onclick="window.location.href = './rules.html';">
+                                <span class="material-symbols-outlined">
+                                    security
+                                </span> Regeln
+                            </button>
                             <div class="dropdown-content">
                                 <a href="#">§ Livechat Regeln</a>
                                 <a href="#">§ Forum Regeln</a>
@@ -150,29 +160,39 @@
                             </div>
                         </div>
                         <div class="dropdown">
-                            <button class="dropbtn">
-                                Dienste
+                            <button class="dropbtn" onclick="window.location.href = './flohnetzwerk.html';">
+                                <span class="material-symbols-outlined">
+                                    security
+                                </span> Flohnetzwerk
                             </button>
                             <div class="dropdown-content">
                                 <a href="./discord.html"><span class="material-symbols-outlined">
-                                    help
-                                    </span> Discord
-                                </a>
-                                <a href="#"><span class="material-symbols-outlined">
-                                    headset_mic
-                                    </span> TS³
-                                </a>
-                                <a href="#"><span class="material-symbols-outlined">
-                                    explore
-                                    </span> Wiki
-                                </a>
-                                <a href="#"><span class="material-symbols-outlined">
-                                    forum
-                                    </span> Forum
+                                    rss_feed
+                                    </span> Youtube
                                 </a>
                                 <a href="#"><span class="material-symbols-outlined">
                                     rss_feed
-                                    </span>  RSS-Feeds
+                                    </span> Twitter
+                                </a>
+                                <a href="#"><span class="material-symbols-outlined">
+                                    rss_feed
+                                    </span> Instagram
+                                </a>
+                                <a href="#"><span class="material-symbols-outlined">
+                                    rss_feed
+                                    </span> TS
+                                </a>
+                                <a href="#"><span class="material-symbols-outlined">
+                                    rss_feed
+                                    </span>  Discord
+                                </a>
+                                <a href="#"><span class="material-symbols-outlined">
+                                    rss_feed
+                                    </span>  Tiktok
+                                </a>
+                                <a href="#"><span class="material-symbols-outlined">
+                                    rss_feed
+                                    </span>  Forum
                                 </a>
                             </div>
                         </div>
@@ -187,49 +207,31 @@
                         </p>-->
                     </div>
 
-                    <div class="slideshow-container">
-                        <div class="mySlidesfade">
-                          <!--<div class="numbertext">1 / 4</div>-->
-                          <img src="./data/images/EGS_HogwartsLegacy_AvalancheSoftware_S1_2560x1440-2baf3188eb3c1aa248bcc1af6a927b7e.jpg">
-                          <!--<div class="text">Europapark</div>-->
+                    <div class="slideshow-container"><!--Slideshow Start-->
+
+                        <div class="sliderv2">
+                            <script src="./data/js/info.js"></script>
+                            <script> document.writeln(sliderv2) </script>
                         </div>
-                        <div class="mySlidesfade">
-                          <!--<div class="numbertext">2 / 4</div>-->
-                          <img src="./data/images/EGS_HogwartsLegacyDigitalDeluxeEdition_AvalancheSoftware_Editions_S1_2560x1440-65f2cce001ab1893cca57f48aeb25196.jpg">
-                          <!--<div class="text">Beschreibung</div>-->
-                        </div>
-                        <div class="mySlidesfade">
-                          <!--<div class="numbertext">3 / 4</div>-->
-                          <img src="./data/images/Hogwarts-Legacy-Release-2023-NAT-Games.jpg">
-                          <!--<div class="text">Bild</div>-->
-                        </div>
-                        <!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                        <a class="next" onclick="plusSlides(+1)">&#10095;</a>-->
-                      </div>
-                      <br>
-                      <!--<div style="text-align:center">
-                        <span class="dot" onclick="currentSlide(1)"></span> 
-                        <span class="dot" onclick="currentSlide(2)"></span> 
-                        <span class="dot" onclick="currentSlide(3)"></span>
-                        <span class="dot" onclick="currentSlide(4)"></span>
-                      </div>-->
-                      <script>
-                        var slideIndex = 0;
-                        showSlides();
                         
-                        function showSlides() {
-                          var i;
-                          var slides = document.getElementsByClassName("mySlidesfade");
-                          for (i = 0; i < slides.length; i++) {
-                            slides[i].style.display = "none"; 
-                          }
-                          slideIndex++;
-                          if (slideIndex > slides.length) {slideIndex = 1} 
-                          slides[slideIndex-1].style.display = "block"; 
-                          setTimeout(showSlides, 5000); // Image change every 5 secounds
-                        }
-                      </script>
-                    </div> <!--Slideshow Ende-->
+                        <script>
+                            var slideIndex = 0;
+                            showSlides();
+                        
+                            function showSlides() {
+                                var i;
+                                var slides = document.getElementsByClassName("mySlidesfade");
+                                for (i = 0; i < slides.length; i++) {
+                                slides[i].style.display = "none"; 
+                                }
+                                slideIndex++;
+                                if (slideIndex > slides.length) {slideIndex = 1} 
+                                slides[slideIndex-1].style.display = "block"; 
+                                setTimeout(showSlides, 10000); // Image change every 10 secounds
+                            }
+                        </script>
+
+                    </div><!--Slideshow Ende-->
 
                     <div class="main-text" style="text-align: left; margin-top: 0px;">
                         <p style="text-align: left;">

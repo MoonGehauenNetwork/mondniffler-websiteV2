@@ -1,56 +1,5 @@
 var navbar =
-'<div class="dropdown">' +
-'<button class="dropbtn"><a href="./index.html"> Home </a></button>' +
-'</div> | ' +
-//Button 1 Finish
-'<div class="dropdown">' +
-'<button class="dropbtn"><a href="#"> Bibliothek </a></button>' +
-'<div class="dropdown-content">' +
-'<a href="#">Tropfender Kessel</a>' +
-'<a href="#">Godric Olivanders</a>' +
-'<a href="#">Weasleys Zauberhafte Zauber Scherze</a>' +
-'</div>' +
-'</div> | ' +
-//Button 2 Finish
-'<div class="dropdown-va">' +
-'<button class="dropbtn"><a href="#"> DCNG & Nifflers </a></button>' +
-'<div class="dropdown-content-va">' +
-'<a href="#">Modpack</a>' +
-'<a href="#">Texpack</a>' +
-'<a href="#">Shader</a>' +
-'</div>' +
-'</div> | '+
-'<div class="dropdown">' +
-'<button class="dropbtn"><a href="#"> Eulenpost </a></button>' +
-'</div> | ' +
-//Button 2 Finish
-'<div class="dropdown">' +
-'<button class="dropbtn"><a href="#"> Große Halle </a></button>' +
-'<div class="dropdown-content">' +
-'<a href="#">Twitter - Mondniffler</a>' +
-'<a href="#">Twitter - Team</a>' +
-'<a href="#">Instagram</a>' +
-'<a href="#">Discord</a>' +
-'<a href="#">TikTok</a>' +
-'<a href="#">Youtube</a>' +
-'</div>' +
-'</div> | ' +
-//Button 2 Finish
-'<div class="dropdown">' +
-'<button class="dropbtn"><a href="#"> Niffler Prohpet </a></button>' +
-'</div> | ' +
-//Button 2 Finish
-'<div class="dropdown-va">' +
-'<button class="dropbtn"><a href="#"> Verbotene Abteilung </a></button>' +
-'<div class="dropdown-content-va">' +
-'<a href="#">Sarah ist toll <3</a>' +
-'<a href="#">Lara ist toll</a>' +
-'<a href="#">Luki du Vogel</a>' +
-'<a href="#">Tötet was fliegt, Eulen jagt Verein e.V</a>' +
-'<a href="#">Tötet was trötet, Elefanten jagt Verein e.V</a>' +
-'</div>' +
-'</div>' ;
-//Button 2 Finish
+'<!--Hey-->';
 
 var fuß =
 '<div id="fussbereich">' +
@@ -82,3 +31,55 @@ var dynbg =
 '<source src="./data/video/galaxy/bg.wtv" type="video/wtv">' +
 '<!--Background VIdeo - src-->' +
 '</video>' ;
+
+var sliderv2 =
+'<div class="mySlidesfade">' +
+'<!--<div class="numbertext">3 / 4</div>-->' +
+'<img src="./data/images/diashow/1.png">' +
+'<!--<div class="text">Bild</div>-->' +
+'</div>' +
+'<div class="mySlidesfade">' +
+'<!--<div class="numbertext">3 / 4</div>-->' +
+'<img src="./data/images/diashow/2.png">' +
+'<!--<div class="text">Bild</div>-->' +
+'</div>' +
+'<div class="mySlidesfade">' +
+'<!--<div class="numbertext">3 / 4</div>-->' +
+'<img src="./data/images/diashow/3.png">' +
+'<!--<div class="text">Bild</div>-->' +
+'</div>' +
+'<div class="mySlidesfade">' +
+'<!--<div class="numbertext">3 / 4</div>-->' +
+'<img src="./data/images/diashow/4.png">' +
+'<!--<div class="text">Bild</div>-->' +
+'</div>' +
+'<div class="mySlidesfade">' +
+'<!--<div class="numbertext">3 / 4</div>-->' +
+'<img src="./data/images/diashow/4.png">' +
+'<!--<div class="text">Bild</div>-->' +
+'</div>' +
+'<div class="mySlidesfade">' +
+'<!--<div class="numbertext">3 / 4</div>-->' +
+'<img src="./data/images/diashow/5.png">' +
+'<!--<div class="text">Bild</div>-->' +
+'</div>' +
+'<div class="mySlidesfade">' +
+'<!--<div class="numbertext">3 / 4</div>-->' +
+'<img src="./data/images/diashow/6.png">' +
+'<!--<div class="text">Bild</div>-->' +
+'</div>' +
+'<div class="mySlidesfade">' +
+'<!--<div class="numbertext">3 / 4</div>-->' +
+'<img src="./data/images/diashow/7.png">' +
+'<!--<div class="text">Bild</div>-->' +
+'</div>' +
+'<!--<a class="prev" onclick="plusSlides(-1)">&#10094;</a>' +
+'<a class="next" onclick="plusSlides(+1)">&#10095;</a>-->' +
+'</div>' +
+'<br>' +
+'<!--<div style="text-align:center">' +
+'<span class="dot" onclick="currentSlide(1)"></span> ' +
+'<span class="dot" onclick="currentSlide(2)"></span> ' +
+'<span class="dot" onclick="currentSlide(3)"></span>' +
+'<span class="dot" onclick="currentSlide(4)"></span>' +
+'</div>-->' ;
