@@ -1,1 +1,0 @@
-console.log("basic.js wurde geladen")
