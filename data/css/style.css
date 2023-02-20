@@ -36,6 +36,7 @@ body {
 }
 #fussbereich {
     position:absolute;
+    color: white;
     bottom: 0;
     display: block;
     width: 100%;
@@ -49,13 +50,21 @@ footer {
     padding-top: 1%;
     padding-bottom: 1%;
     overflow: hidden;
+    color: white;
     /*bottom: 0;*/
     display: block;
     width: 100%;
     background-color: gray;
     text-decoration: none;
-    color: black;
     margin: 0px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+#fussbereich {
+    text-decoration: none;
+    color: white;
 }
 a,
 a:hover,
