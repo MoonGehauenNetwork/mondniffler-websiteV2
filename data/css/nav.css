@@ -1,0 +1,41 @@
+nav {
+    display: block;
+    text-align: center;
+}
+.navbar {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.navbar-content a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+    border: 0;
+}
+.navbar-content a:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    border: 0px;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+.navbar-content {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.navbar-content-left {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.navbar-content-right {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
