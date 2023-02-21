@@ -80,138 +80,142 @@
 
         </video>
 
-        <header>
+        <div id="seite">
+            <div id="inhalt">
+                <header>
 
-            <div id="mn-headline-top">
-                <h1>Mondniffler | Kamin</h1>
+                    <div id="mn-headline-top">
+                        <h1>Mondniffler | Kamin</h1>
+                    </div>
+
+                </header>
+
+                <div id="navbar-pro">
+                    <nav>
+                        <!-- Load font awesome icons -->
+                        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                        <!-- The navigation menu -->
+                        <div class="navbar">
+                            <a href="#home">Home</a>
+                            <div class="subnav">
+                                <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
+                                <div class="subnav-content">
+                                    <a href="#company" style="color: black;">Company</a>
+                                    <a href="#team" style="color: black;">Team</a>
+                                    <a href="#careers" style="color: black;">Careers</a>
+
+                                    
+
+                                </div>
+                            </div>
+                            <div class="subnav">
+                                <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
+                                <div class="subnav-content">
+                                    <a href="#bring" style="color: black;">Bring</a>
+                                    <a href="#deliver" style="color: black;">Deliver</a>
+                                    <a href="#package" style="color: black;">Package</a>
+                                    <a href="#express" style="color: black;">Express</a>
+                                </div>
+                            </div>
+                            <div class="subnav">
+                                <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
+                                <div class="subnav-content">
+                                    <a href="#link1" style="color: black;">Link 1</a>
+                                    <a href="#link2" style="color: black;">Link 2</a>
+                                    <a href="#link3" style="color: black;">Link 3</a>
+                                    <a href="#link4" style="color: black;">Link 4</a>
+                                </div>
+                            </div>
+                            <a href="#contact">Contact</a>
+                        </div> 
+                    </nav>
+                </div>
+                <script>// When the user scrolls the page, execute myFunction
+                    window.onscroll = function() {myFunction()};
+                    
+                    // Get the navbar
+                    var navbar = document.getElementById("navbar-pro");
+                    
+                    // Get the offset position of the navbar
+                    var sticky = navbar.offsetTop;
+                    
+                    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+                    function myFunction() {
+                    if (window.pageYOffset >= sticky) {
+                        navbar.classList.add("sticky")
+                    } else {
+                        navbar.classList.remove("sticky");
+                    }
+                    } 
+                </script>
+
+                <main>
+
+                    <div class="main-text" style="text-align: center;">
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+                        <p>123456789</p>
+
+                    </div>
+
+                </main>
+            
+                <div id="fussbereich">
+                    <footer>© 2022 Copyright MGN | All Rights Reserved | <a href="https://contact.mgn.partner.dercrafter.de" target="_blank">Kontakt</a> | <a href="https://privacy.mondniffler.de" target="_blank">Datenschutzerklärung</a> | <a href="https://impressum.mondniffler.de" target="_blank">Impressum</a></footer>
+                </div>
             </div>
-
-        </header>
-
-        <div id="navbar-pro">
-            <nav>
-                <!-- Load font awesome icons -->
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-                <!-- The navigation menu -->
-                <div class="navbar">
-                    <a href="#home">Home</a>
-                    <div class="subnav">
-                        <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
-                        <div class="subnav-content">
-                            <a href="#company">Company</a>
-                            <a href="#team">Team</a>
-                            <a href="#careers">Careers</a>
-
-                            
-
-                        </div>
-                    </div>
-                    <div class="subnav">
-                        <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
-                        <div class="subnav-content">
-                            <a href="#bring">Bring</a>
-                            <a href="#deliver">Deliver</a>
-                            <a href="#package">Package</a>
-                            <a href="#express">Express</a>
-                        </div>
-                    </div>
-                    <div class="subnav">
-                        <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
-                        <div class="subnav-content">
-                            <a href="#link1">Link 1</a>
-                            <a href="#link2">Link 2</a>
-                            <a href="#link3">Link 3</a>
-                            <a href="#link4">Link 4</a>
-                        </div>
-                    </div>
-                    <a href="#contact">Contact</a>
-                </div> 
-            </nav>
-        </div>
-        <script>// When the user scrolls the page, execute myFunction
-            window.onscroll = function() {myFunction()};
-            
-            // Get the navbar
-            var navbar = document.getElementById("navbar-pro");
-            
-            // Get the offset position of the navbar
-            var sticky = navbar.offsetTop;
-            
-            // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-            function myFunction() {
-              if (window.pageYOffset >= sticky) {
-                navbar.classList.add("sticky")
-              } else {
-                navbar.classList.remove("sticky");
-              }
-            } 
-        </script>
-
-        <main>
-
-            <div>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-                <p>123456789</p>
-
-            </div>
-
-        </main>
-
-        <div id="fussbereich">
-            <footer>© 2022 Copyright MGN | All Rights Reserved | <a href="https://contact.mgn.partner.dercrafter.de" target="_blank">Kontakt</a> | <a href="https://privacy.mondniffler.de" target="_blank">Datenschutzerklärung</a> | <a href="https://impressum.mondniffler.de" target="_blank">Impressum</a></footer>
         </div>
 
     </body>
