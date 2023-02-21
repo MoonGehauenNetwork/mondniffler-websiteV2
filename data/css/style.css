@@ -6,7 +6,8 @@ body {
 #mn-headline-top{
     display: block;
     text-align: center;
-    margin: 0px;
+    margin-top: 1%;
+    margin-bottom: 2%;
     font-size: 20px;
     font-family: Bebas Neue;
 }
