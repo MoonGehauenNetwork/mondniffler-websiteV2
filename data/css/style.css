@@ -7,7 +7,7 @@ body {
     display: block;
     text-align: center;
     margin-top: 1%;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
     font-size: 20px;
     font-family: Bebas Neue;
 }
@@ -111,9 +111,10 @@ img:focus {
     margin-top: 4%;
     margin-bottom: 2%;
     padding: 2%;
+    color: white;
     background: linear-gradient(to right, #000000, #444444 ) no-repeat;
     text-decoration: none;
     font-family: 'Patrick Hand', cursive;
     /*margin: 4%;*/
-    border-radius: 20px;
+    border-radius: 15px;
 }

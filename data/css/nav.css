@@ -3,13 +3,14 @@
   overflow: hidden;
   text-align: center;
   background-color: #333;
+  border-radius: 20px;
   display: inline-block;
 }
 
 /* Navigation links */
 .navbar a {
   float: left;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -24,7 +25,7 @@
 
 /* Subnav button */
 .subnav .subnavbtn {
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   outline: none;
   color: white;
@@ -89,7 +90,7 @@
 /* Navigation links */
 .navbar-drp a {
   float: left;
-  font-size: 16px;
+  font-size: 20px;
   color: white;
   text-align: center;
   padding: 14px 16px;
@@ -104,7 +105,7 @@
 
 /* Subnav button */
 .subnav-drp .subnavbtn-drp {
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   outline: none;
   color: white;
@@ -155,27 +156,18 @@ nav {
   display: inline-block;
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
  /* Style the navbar */
  #navbar-pro {
   overflow: hidden;
   display: block;
   text-align: center;
+  margin-bottom: 1%;
+  font-family: Bebas Neue;
 }
 
 /* Navbar links */
 #navbar-pro a {
   float: left;
-  color: white;
   padding: 14px;
   text-decoration: none;
 }
@@ -195,4 +187,5 @@ nav {
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
+  background-color: #3333336d;
 } 
