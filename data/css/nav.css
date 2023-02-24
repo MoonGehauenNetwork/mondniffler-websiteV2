@@ -43,6 +43,7 @@
 /* Add a red background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
   background-color: red;
+
 }
 
 /* Style the subnav content - positioned absolute */
@@ -52,6 +53,9 @@
   float: none;
   text-align: center;
   background-color: red;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   z-index: 1;
 }
 
@@ -64,8 +68,16 @@
 
 /* Add a grey background color on hover */
 .subnav-content a:hover {
-  background-color: #eee;
+  background-color: #eeeeee00;
   color: black;
+  z-index: 1;
+}
+.subnav-content-hov-left :hover {
+  border-bottom-left-radius: 20px;
+}
+.subnav-content-hov-right :hover {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
