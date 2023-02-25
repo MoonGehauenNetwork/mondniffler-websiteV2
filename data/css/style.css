@@ -118,3 +118,17 @@ img:focus {
     /*margin: 4%;*/
     border-radius: 15px;
 }
+.main-text-2 {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    padding: 2%;
+    color: white;
+    background: linear-gradient(to right, #000000, #444444 ) no-repeat;
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+    /*margin: 4%;*/
+    border-radius: 15px;
+}
