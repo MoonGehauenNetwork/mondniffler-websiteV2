@@ -1,0 +1,138 @@
+.team-all {
+    display: block;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    
+}
+.team-all-bg {
+    background-color: #333;
+    color: white;
+    display: inline-block;
+    border-radius: 15px;
+}
+.team-all img {
+    height: 270px;
+    width: 146px;
+}
+
+/**/
+
+.team-minister {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    z-index: 1;
+    display: block;
+    background-color: #585454;
+}
+.team-minister-user-all {
+    display: block;
+    text-align: center;
+}
+.team-minister-user {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/**/
+
+.team-schullleiter {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    z-index: 1;
+    display: block;
+    background-color: #333;
+}
+.team-schullleiter-user-all {
+    display: block;
+    text-align: center;
+}
+.team-schullleiter-user {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/**/
+
+.team-ministeriumsangestellte {
+    background-color: #585454;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    z-index: 1;
+    display: block;
+}
+.team-ministeriumsangestellte-user-all {
+    display: block;
+    text-align: center;
+}
+.team-ministeriumsangestellte-user {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/**/
+
+.team-lehrkräfte {
+    background-color: #333;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    z-index: 1;
+    display: block;
+}
+.team-lehrkräfter-user-all {
+    display: block;
+    text-align: center;
+}
+.team-lehrkräfte-user {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/**/
+
+.team-quiditchkapitäne {
+    background-color: #585454;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    z-index: 1;
+    display: block;
+}
+.team-quiditchkapitäne-user-all {
+    display: block;
+    text-align: center;
+}
+.team-quiditchkapitäne-user {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/**/
+
+.team-inqisitonskommando {
+    background-color: #333;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    z-index: 1;
+    display: block;
+}
+.team-inqisitonskommando-user-all {
+    display: block;
+    text-align: center;
+}
+.team-inqisitonskommando-user {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+}
