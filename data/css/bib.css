@@ -1,0 +1,12 @@
+.bib-all img {
+    height: 162px;
+    width: 288px;
+}
+.bib-all {
+    display: block;
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    
+}
