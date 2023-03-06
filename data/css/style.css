@@ -125,12 +125,18 @@ img:focus {
     margin-top: 4%;
     margin-bottom: 2%;
     padding: 2%;
-    color: white;
-    background: linear-gradient(to right, #000000, #444444 ) no-repeat;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0);
     text-decoration: none;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
     /*margin: 4%;*/
-    border-radius: 15px;
+    border-color: white;
+}
+.main-text-sample-rule {
+    text-align: center;
+    display: block;
 }
 .main-text-2 {
     text-align: center;
@@ -140,7 +146,7 @@ img:focus {
     margin-bottom: 2%;
     padding: 2%;
     color: white;
-    background: linear-gradient(to right, #000000, #444444 ) no-repeat;
+    background: linear-gradient(to right, #000000, #000000 ) no-repeat;
     text-decoration: none;
     font-family: 'Patrick Hand', cursive;
     /*margin: 4%;*/

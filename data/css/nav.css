@@ -3,7 +3,6 @@
   overflow: hidden;
   text-align: center;
   background-color: #333;
-  border-radius: 20px;
   display: inline-block;
 }
 
@@ -53,9 +52,6 @@
   float: none;
   text-align: center;
   background-color: red;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
   z-index: 1;
 }
 
@@ -71,13 +67,6 @@
   background-color: #eeeeee00;
   color: black;
   z-index: 1;
-}
-.subnav-content-hov-left :hover {
-  border-bottom-left-radius: 20px;
-}
-.subnav-content-hov-right :hover {
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 20px;
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */

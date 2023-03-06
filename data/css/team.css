@@ -7,8 +7,8 @@
     
 }
 .team-all-bg {
-    background-color: #333;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     display: inline-block;
     border-radius: 15px;
 }
@@ -16,6 +16,8 @@
     height: 270px;
     width: 203px;
 }
+
+
 
 /**/
 
@@ -25,7 +27,18 @@
     padding-top: 2%;
     z-index: 1;
     display: block;
-    background-color: #585454;
+    background-color: #e9e9e9;
+}
+.team-minister-role-desciption {
+    font-family: "Bitter";
+}
+.team-minister-role-desciption h3 {
+    font-family: "Merriweather";
+    color: rgb(144, 11, 11);
+    font-weight: 900;
+    font-size: 25px;
+    font-style: "normal";
+    text-decoration-color: red;
 }
 .team-minister-user-all {
     display: block;
@@ -36,6 +49,9 @@
     margin-left: 2%;
     margin-right: 2%;
 }
+.team-minister-user-subname {
+    font-family: "Shantell Sans", cursive;
+}
 
 /**/
 
@@ -45,7 +61,7 @@
     padding-top: 2%;
     z-index: 1;
     display: block;
-    background-color: #333;
+    background-color: #ffffff;
 }
 .team-schullleiter-user-all {
     display: block;
@@ -60,7 +76,7 @@
 /**/
 
 .team-ministeriumsangestellte {
-    background-color: #585454;
+    background-color: #e9e9e9;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
@@ -80,7 +96,7 @@
 /**/
 
 .team-lehrkräfte {
-    background-color: #333;
+    background-color: #ffffff;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
@@ -100,7 +116,7 @@
 /**/
 
 .team-quiditchkapitäne {
-    background-color: #585454;
+    background-color: #e9e9e9;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
@@ -120,7 +136,7 @@
 /**/
 
 .team-inqisitonskommando {
-    background-color: #333;
+    background-color: #ffffff;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
@@ -135,4 +151,10 @@
     display: inline-block;
     margin-left: 2%;
     margin-right: 2%;
+}
+.fa-brands {
+    color: red;
+}
+.fa-solid {
+    color: red;
 }
