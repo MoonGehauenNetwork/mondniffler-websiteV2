@@ -27,18 +27,7 @@
     padding-bottom: 2%;
     padding-left: 8%;
     padding-right: 8%;
-}
-.team-role-minister-prefix {
-    display: block;
-    background-color: darkred;
-    font-family: 'Ubuntu';
-    font-weight: 700;
-    color: white;
-    font-size: 20px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 8%;
-    padding-right: 8%;
+    margin: 1px;
 }
 .team-role-youtuber-prefix {
     display: block;
@@ -51,6 +40,20 @@
     padding-bottom: 2%;
     padding-left: 8%;
     padding-right: 8%;
+    margin: 1px;
+}
+.team-role-youtuber-prefix:hover {
+    display: block;
+    background-color: rgb(215, 12, 12);
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
 }
 .team-role-owner-tagesprophetstaff-prefix {
     display: block;
@@ -63,10 +66,40 @@
     padding-bottom: 2%;
     padding-left: 8%;
     padding-right: 8%;
+    margin: 1px;
+}
+.team-role-owner-tagesprophetstaff-prefix:hover {
+    display: block;
+    background-color: rgb(161, 12, 215);
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-minister-prefix:hover {
+    display: block;
+    background-color: darkred;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
 }
 
 
-
+.dark-mode {
+    background-color: black;
+    color: white;
+}
 
 
 
@@ -85,6 +118,7 @@
 }
 .team-minister-user-sm {
     display: block;
+    font-size: 20px;
 }
 .team-minister-role-desciption h3 {
     font-family: "Merriweather";
