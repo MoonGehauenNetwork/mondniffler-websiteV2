@@ -15,6 +15,20 @@
     height: 270px;
     width: 203px;
 }
+.fa-brands {
+    color: red;
+}
+.fa-solid {
+    color: red;
+}
+.fa-brands:hover {
+    color: blue;
+}
+.fa-solid:hover {
+    color: blue;
+}
+
+
 
 .team-role-minister-prefix {
     display: block;
@@ -22,58 +36,6 @@
     font-family: 'Ubuntu';
     font-weight: 700;
     color: white;
-    font-size: 20px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin: 1px;
-}
-.team-role-youtuber-prefix {
-    display: block;
-    background-color: rgb(215, 12, 12);
-    font-family: 'Ubuntu';
-    font-weight: 700;
-    color: white;
-    font-size: 20px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin: 1px;
-}
-.team-role-youtuber-prefix:hover {
-    display: block;
-    background-color: rgb(215, 12, 12);
-    font-family: 'Ubuntu';
-    font-weight: 700;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin: 1px;
-}
-.team-role-owner-tagesprophetstaff-prefix {
-    display: block;
-    background-color: rgb(161, 12, 215);
-    font-family: 'Ubuntu';
-    font-weight: 700;
-    color: white;
-    font-size: 20px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin: 1px;
-}
-.team-role-owner-tagesprophetstaff-prefix:hover {
-    display: block;
-    background-color: rgb(161, 12, 215);
-    font-family: 'Ubuntu';
-    font-weight: 700;
-    color: rgb(0, 0, 0);
     font-size: 20px;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -94,9 +56,22 @@
     padding-right: 8%;
     margin: 1px;
 }
-.team-role-schullleiter-prefix:hover {
+.team-role-youtuber-prefix {
     display: block;
-    background-color: rgb(6, 161, 122);
+    background-color: red;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-youtuber-prefix:hover {
+    display: block;
+    background-color: red;
     font-family: 'Ubuntu';
     font-weight: 700;
     color: rgb(0, 0, 0);
@@ -107,9 +82,9 @@
     padding-right: 8%;
     margin: 1px;
 }
-.team-role-schullleiter-prefix {
+.team-role-tagesprophet-prefix {
     display: block;
-    background-color: rgb(6, 161, 122);
+    background-color: purple;
     font-family: 'Ubuntu';
     font-weight: 700;
     color: white;
@@ -120,22 +95,9 @@
     padding-right: 8%;
     margin: 1px;
 }
-.team-role-head-ministeriumsangestellter-prefix {
+.team-role-tagesprophet-prefix:hover {
     display: block;
-    background-color: rgb(35, 102, 8);
-    font-family: 'Ubuntu';
-    font-weight: 700;
-    color: white;
-    font-size: 20px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 8%;
-    padding-right: 8%;
-    margin: 1px;
-}
-.team-role-head-ministeriumsangestellter-prefix:hover {
-    display: block;
-    background-color: rgb(35, 102, 8);
+    background-color: purple;
     font-family: 'Ubuntu';
     font-weight: 700;
     color: rgb(0, 0, 0);
@@ -146,9 +108,9 @@
     padding-right: 8%;
     margin: 1px;
 }
-.team-role-head-mod-prefix {
+.team-role-abteilungsleiter-prefix {
     display: block;
-    background-color: rgb(95, 4, 105);
+    background-color: rgb(2, 98, 136);
     font-family: 'Ubuntu';
     font-weight: 700;
     color: white;
@@ -159,9 +121,9 @@
     padding-right: 8%;
     margin: 1px;
 }
-.team-role-head-mod-prefix:hover {
+.team-role-abteilungsleiter-prefix:hover {
     display: block;
-    background-color: rgb(95, 4, 105);
+    background-color: rgb(2, 98, 136);
     font-family: 'Ubuntu';
     font-weight: 700;
     color: rgb(0, 0, 0);
@@ -172,9 +134,9 @@
     padding-right: 8%;
     margin: 1px;
 }
-.team-role-staff-tagesprophet-prefix {
+.team-role-ministeriumsabteilung-prefix {
     display: block;
-    background-color: rgb(208, 46, 226);
+    background-color: rgb(31, 102, 14);
     font-family: 'Ubuntu';
     font-weight: 700;
     color: white;
@@ -185,9 +147,9 @@
     padding-right: 8%;
     margin: 1px;
 }
-.team-role-staff-tagesprophet-prefix:hover {
+.team-role-ministeriumsabteilung-prefix:hover {
     display: block;
-    background-color: rgb(208, 46, 226);
+    background-color: rgb(31, 102, 14);
     font-family: 'Ubuntu';
     font-weight: 700;
     color: rgb(0, 0, 0);
@@ -198,9 +160,9 @@
     padding-right: 8%;
     margin: 1px;
 }
-.team-role-lehrkraft-prefix {
+.team-role-aurorenabteilung-prefix {
     display: block;
-    background-color: rgb(240, 157, 33);
+    background-color: rgb(31, 102, 14);
     font-family: 'Ubuntu';
     font-weight: 700;
     color: white;
@@ -211,9 +173,9 @@
     padding-right: 8%;
     margin: 1px;
 }
-.team-role-lehrkraft-prefix:hover {
+.team-role-aurorenabteilung-prefix:hover {
     display: block;
-    background-color: rgb(240, 157, 33);
+    background-color: rgb(31, 102, 14);
     font-family: 'Ubuntu';
     font-weight: 700;
     color: rgb(0, 0, 0);
@@ -224,9 +186,9 @@
     padding-right: 8%;
     margin: 1px;
 }
-.team-role-ceo-tagesprophet-prefix {
+.team-role-magischestrafverfolgung-prefix {
     display: block;
-    background-color: rgb(208, 46, 226);
+    background-color: rgb(31, 102, 14);
     font-family: 'Ubuntu';
     font-weight: 700;
     color: white;
@@ -237,9 +199,9 @@
     padding-right: 8%;
     margin: 1px;
 }
-.team-role-ceo-tagesprophet-prefix:hover {
+.team-role-magischestrafverfolgung-prefix:hover {
     display: block;
-    background-color: rgb(208, 46, 226);
+    background-color: rgb(31, 102, 14);
     font-family: 'Ubuntu';
     font-weight: 700;
     color: rgb(0, 0, 0);
@@ -251,15 +213,7 @@
     margin: 1px;
 }
 
-
-.dark-mode {
-    background-color: black;
-    color: white;
-}
-
-
-
-/**/
+/*ROLLEN ENDE*/
 
 .team-minister {
     padding-left: 5%;
@@ -271,10 +225,6 @@
 }
 .team-minister-role-desciption {
     font-family: "Bitter";
-}
-.team-minister-user-sm {
-    display: block;
-    font-size: 20px;
 }
 .team-minister-role-desciption h3 {
     font-family: "Merriweather";
@@ -304,83 +254,27 @@
     margin-left: 2%;
     margin-right: 2%;
 }
-.team-minister-user-subname {
-    font-family: "Shantell Sans", cursive;
-}
-
-/**/
-
-.team-schullleiter {
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2%;
-    z-index: 1;
-    display: block;
-    background-color: #ffffff;
-}
-.team-schullleiter-user-all {
-    display: block;
-    text-align: center;
-}
-.team-schullleiter-user {
-    display: inline-block;
-    margin-left: 2%;
-    margin-right: 2%;
-
-}
-.team-schullleiter-role-desciption {
-    font-family: "Bitter";
-}
-.team-schullleiter-user-sm {
+.team-minister-user-sm {
     display: block;
     font-size: 20px;
 }
-.team-schullleiter-role-desciption h3 {
-    font-family: "Merriweather";
-    color: rgb(144, 11, 11);
-    font-weight: 900;
-    font-size: 35px;
-    display: inline-block;
-    font-style: "normal";
-    text-decoration-color: red;
-}
-.team-schullleiter-role-desciption h3:hover {
-    font-family: "Merriweather";
-    color: rgb(222, 29, 29);
-    font-weight: 900;
-    font-size: 35px;
-    display: inline-block;
-    
-    font-style: "normal";
-    text-decoration-color: red;
-}
-.team-schullleiter-user-subname {
-    font-family: "Shantell Sans", cursive;
-}
 
-/**/
 
-.team-ministeriumsangestellte {
-    background-color: #e9e9e9;
+/*Minister ENDE*/
+
+.team-abteilungsleiter {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
     z-index: 1;
     display: block;
+    background-color: #ffffff;
 }
-.team-ministeriumsangestellte-user-all {
-    display: block;
-    text-align: center;
-}
-.team-ministeriumsangestellte-user {
-    display: inline-block;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-.team-ministeriumsangestellte-role-desciption {
+
+.team-abteilungsleiter-role-desciption {
     font-family: "Bitter";
 }
-.team-ministeriumsangestellte-role-desciption h3 {
+.team-abteilungsleiter-role-desciption h3 {
     font-family: "Merriweather";
     color: rgb(144, 11, 11);
     font-weight: 900;
@@ -389,7 +283,7 @@
     font-style: "normal";
     text-decoration-color: red;
 }
-.team-ministeriumsangestellte-role-desciption h3:hover {
+.team-abteilungsleiter-role-desciption h3:hover {
     font-family: "Merriweather";
     color: rgb(222, 29, 29);
     font-weight: 900;
@@ -399,74 +293,16 @@
     font-style: "normal";
     text-decoration-color: red;
 }
-/**/
-
-.team-lehrkräfte {
-    background-color: #ffffff;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2%;
-    z-index: 1;
-    display: block;
-}
-.team-lehrkräfter-user-all {
+.team-abteilungsleiter-user-all {
     display: block;
     text-align: center;
 }
-.team-lehrkräfte-user {
+.team-abteilungsleiter-user {
     display: inline-block;
     margin-left: 2%;
     margin-right: 2%;
 }
-
-/**/
-
-.team-quiditchkapitäne {
-    background-color: #e9e9e9;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2%;
-    z-index: 1;
+.team-abteilungsleiter-user-sm {
     display: block;
-}
-.team-quiditchkapitäne-user-all {
-    display: block;
-    text-align: center;
-}
-.team-quiditchkapitäne-user {
-    display: inline-block;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-
-/**/
-
-.team-inqisitonskommando {
-    background-color: #ffffff;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2%;
-    z-index: 1;
-    display: block;
-}
-.team-inqisitonskommando-user-all {
-    display: block;
-    text-align: center;
-}
-.team-inqisitonskommando-user {
-    display: inline-block;
-    margin-left: 2%;
-    margin-right: 2%;
-}
-.fa-brands {
-    color: red;
-}
-.fa-solid {
-    color: red;
-}
-.fa-brands:hover {
-    color: blue;
-}
-.fa-solid:hover {
-    color: blue;
+    font-size: 20px;
 }
