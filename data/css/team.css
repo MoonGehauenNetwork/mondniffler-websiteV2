@@ -236,6 +236,7 @@
     display: inline-block;
     font-style: "normal";
     text-decoration-color: red;
+    margin-top: 0px;
 }
 .team-minister-role-desciption h3:hover {
     font-family: "Merriweather";
@@ -243,9 +244,9 @@
     font-weight: 900;
     font-size: 35px;
     display: inline-block;
-    
     font-style: "normal";
     text-decoration-color: red;
+    margin-top: 0px;
 }
 .team-minister-user-all {
     display: block;
@@ -316,7 +317,6 @@
     font-weight: 900;
     font-size: 35px;
     display: inline-block;
-    
     font-style: "normal";
     text-decoration-color: red;
 }
