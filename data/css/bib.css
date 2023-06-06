@@ -1,12 +1,777 @@
-.bib-all img {
-    height: 162px;
-    width: 288px;
-}
-.bib-all {
+.bib-head {
     display: block;
     text-align: center;
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-    
+    margin-right: 12%;
+    margin-left: 12%;
+    margin-bottom: 2%;
 }
+.bib-head-bg {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    border-radius: 15px;
+}
+
+/*Settings for all*/
+
+.team-all {
+    display: block;
+    text-align: center;
+    margin-right: 12%;
+    margin-left: 12%;
+    margin-bottom: 5%;
+}
+.team-all-bg {
+    background-color: #e9e9e9;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    border-radius: 15px;
+}
+.team-all img {
+    height: 265px;
+    width: 200px;
+}
+.fa-brands {
+    color: red;
+}
+.fa-solid {
+    color: red;
+}
+.fa-brands:hover {
+    color: blue;
+}
+.fa-solid:hover {
+    color: blue;
+}
+
+/*Rollen Prefix*/
+
+.team-role-minister-prefix {
+    display: block;
+    background-color: darkred;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: white;
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-minister-prefix:hover {
+    display: block;
+    background-color: darkred;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-youtuber-prefix {
+    display: block;
+    background-color: red;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: white;
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-youtuber-prefix:hover {
+    display: block;
+    background-color: red;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-tagesprophet-prefix {
+    display: block;
+    background-color: purple;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: white;
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-tagesprophet-prefix:hover {
+    display: block;
+    background-color: purple;
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-abteilungsleiter-prefix {
+    display: block;
+    background-color: rgb(2, 98, 136);
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: white;
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-abteilungsleiter-prefix:hover {
+    display: block;
+    background-color: rgb(2, 98, 136);
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-ministeriumsabteilung-prefix {
+    display: block;
+    background-color: rgb(31, 102, 14);
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: white;
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-ministeriumsabteilung-prefix:hover {
+    display: block;
+    background-color: rgb(31, 102, 14);
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-aurorenabteilung-prefix {
+    display: block;
+    background-color: rgb(31, 102, 14);
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: white;
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-aurorenabteilung-prefix:hover {
+    display: block;
+    background-color: rgb(31, 102, 14);
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-magischestrafverfolgung-prefix {
+    display: block;
+    background-color: rgb(31, 102, 14);
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: white;
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-magischestrafverfolgung-prefix:hover {
+    display: block;
+    background-color: rgb(31, 102, 14);
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-builder-prefix {
+    display: block;
+    background-color: rgb(31, 102, 14);
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: white;
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+.team-role-builder-prefix:hover {
+    display: block;
+    background-color: rgb(31, 102, 14);
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin: 1px;
+}
+
+
+/*ROLLEN ENDE*/
+
+.team-minister {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    z-index: 1;
+    display: block;
+    background-color: #e9e9e9;
+}
+.team-minister-role-desciption {
+    font-family: "Bitter";
+}
+.team-minister-role-desciption h3 {
+    font-family: "Merriweather";
+    color: rgb(144, 11, 11);
+    font-weight: 900;
+    font-size: 35px;
+    display: inline-block;
+    font-style: "normal";
+    text-decoration-color: red;
+    margin-top: 0px;
+}
+.team-minister-role-desciption h3:hover {
+    font-family: "Merriweather";
+    color: rgb(222, 29, 29);
+    font-weight: 900;
+    font-size: 35px;
+    display: inline-block;
+    font-style: "normal";
+    text-decoration-color: red;
+    margin-top: 0px;
+}
+.team-minister-user-all {
+    display: block;
+    text-align: center;
+}
+.team-minister-user-profile {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    align-items: center;
+}
+.team-minister-user-skin{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    height: 265px;
+    width: 200px;
+    display: block;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.team-minister-user-roles-prefix{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-minister-user-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-minister-user-text-name{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-minister-user-text-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+.team-minister-user-text-sm {
+    display: block;
+    font-size: 20px;
+}
+
+/*Minister ENDE*/
+
+.team-abteilungsleiter {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    z-index: 1;
+    display: block;
+    background-color: #ffffff;
+}
+.team-abteilungsleiter-role-desciption {
+    font-family: "Bitter";
+}
+.team-abteilungsleiter-role-desciption h3 {
+    font-family: "Merriweather";
+    color: rgb(144, 11, 11);
+    font-weight: 900;
+    font-size: 35px;
+    display: inline-block;
+    font-style: "normal";
+    text-decoration-color: red;
+}
+.team-abteilungsleiter-role-desciption h3:hover {
+    font-family: "Merriweather";
+    color: rgb(222, 29, 29);
+    font-weight: 900;
+    font-size: 35px;
+    display: inline-block;
+    font-style: "normal";
+    text-decoration-color: red;
+}
+.team-abteilungsleiter-user-all {
+    display: block;
+    text-align: center;
+}
+.team-abteilungsleiter-user-profile {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    align-items: center;
+}
+.team-abteilungsleiter-user-skin{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    height: 265px;
+    width: 200px;
+    display: block;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.team-abteilungsleiter-user-roles-prefix{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-abteilungsleiter-user-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-abteilungsleiter-user-text-name{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-abteilungsleiter-user-text-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+.team-abteilungsleiter-user-text-sm {
+    display: block;
+    font-size: 20px;
+}
+
+/*Minister ENDE*/
+
+.team-ministeriumsabteilung {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    z-index: 1;
+    display: block;
+    background-color: #e9e9e9;
+}
+.team-ministeriumsabteilung-role-desciption {
+    font-family: "Bitter";
+}
+.team-ministeriumsabteilung-role-desciption h3 {
+    font-family: "Merriweather";
+    color: rgb(144, 11, 11);
+    font-weight: 900;
+    font-size: 35px;
+    display: inline-block;
+    font-style: "normal";
+    text-decoration-color: red;
+}
+.team-ministeriumsabteilung-role-desciption h3:hover {
+    font-family: "Merriweather";
+    color: rgb(222, 29, 29);
+    font-weight: 900;
+    font-size: 35px;
+    display: inline-block;
+    font-style: "normal";
+    text-decoration-color: red;
+}
+.team-ministeriumsabteilung-user-all {
+    display: block;
+    text-align: center;
+}
+.team-ministeriumsabteilung-user-profile {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    align-items: center;
+}
+.team-ministeriumsabteilung-user-skin{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    height: 265px;
+    width: 200px;
+    display: block;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.team-ministeriumsabteilung-user-roles-prefix{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-ministeriumsabteilung-user-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-ministeriumsabteilung-user-text-name{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-ministeriumsabteilung-user-text-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+.team-ministeriumsabteilung-user-text-sm {
+    display: block;
+    font-size: 20px;
+}
+
+/*Minister ENDE*/
+
+.team-aurorenabteilung {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    z-index: 1;
+    display: block;
+    background-color: #ffffff;
+}
+.team-aurorenabteilung-role-desciption {
+    font-family: "Bitter";
+}
+.team-aurorenabteilung-role-desciption h3 {
+    font-family: "Merriweather";
+    color: rgb(144, 11, 11);
+    font-weight: 900;
+    font-size: 35px;
+    display: inline-block;
+    font-style: "normal";
+    text-decoration-color: red;
+}
+.team-aurorenabteilung-role-desciption h3:hover {
+    font-family: "Merriweather";
+    color: rgb(222, 29, 29);
+    font-weight: 900;
+    font-size: 35px;
+    display: inline-block;
+    font-style: "normal";
+    text-decoration-color: red;
+}
+.team-aurorenabteilung-user-all {
+    display: block;
+    text-align: center;
+}
+.team-aurorenabteilung-user-profile {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    align-items: center;
+}
+.team-aurorenabteilung-user-skin{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    height: 265px;
+    width: 200px;
+    display: block;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.team-aurorenabteilung-user-roles-prefix{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-aurorenabteilung-user-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-aurorenabteilung-user-text-name{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-aurorenabteilung-user-text-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+.team-aurorenabteilung-user-text-sm {
+    display: block;
+    font-size: 20px;
+}
+
+/*Minister ENDE*/
+
+/*ROLLEN ENDE*/
+
+.team-builder {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    z-index: 1;
+    display: block;
+    background-color: #e9e9e9;
+}
+.team-builder-role-desciption {
+    font-family: "Bitter";
+}
+.team-builder-role-desciption h3 {
+    font-family: "Merriweather";
+    color: rgb(144, 11, 11);
+    font-weight: 900;
+    font-size: 35px;
+    display: inline-block;
+    font-style: "normal";
+    text-decoration-color: red;
+    margin-top: 0px;
+}
+.team-builder-role-desciption h3:hover {
+    font-family: "Merriweather";
+    color: rgb(222, 29, 29);
+    font-weight: 900;
+    font-size: 35px;
+    display: inline-block;
+    font-style: "normal";
+    text-decoration-color: red;
+    margin-top: 0px;
+}
+.team-builder-user-all {
+    display: block;
+    text-align: center;
+}
+.team-builder-user-profile {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    align-items: center;
+}
+.team-builder-user-skin{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    height: 265px;
+    width: 200px;
+    display: block;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.team-builder-user-roles-prefix{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-builder-user-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-builder-user-text-name{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-builder-user-text-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+.team-builder-user-text-sm {
+    display: block;
+    font-size: 20px;
+}
+
+/*Minister ENDE*/
+
+/*ROLLEN ENDE*/
+
+.team-magischestrafverfolgung {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    z-index: 1;
+    display: block;
+    background-color: #e9e9e9;
+}
+.team-magischestrafverfolgung-role-desciption {
+    font-family: "Bitter";
+}
+.team-magischestrafverfolgung-role-desciption h3 {
+    font-family: "Merriweather";
+    color: rgb(144, 11, 11);
+    font-weight: 900;
+    font-size: 35px;
+    display: inline-block;
+    font-style: "normal";
+    text-decoration-color: red;
+    margin-top: 0px;
+}
+.team-magischestrafverfolgung-role-desciption h3:hover {
+    font-family: "Merriweather";
+    color: rgb(222, 29, 29);
+    font-weight: 900;
+    font-size: 35px;
+    display: inline-block;
+    font-style: "normal";
+    text-decoration-color: red;
+    margin-top: 0px;
+}
+.team-magischestrafverfolgung-user-all {
+    display: block;
+    text-align: center;
+}
+.team-magischestrafverfolgung-user-profile {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    align-items: center;
+}
+.team-magischestrafverfolgung-user-skin{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    height: 265px;
+    width: 200px;
+    display: block;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.team-magischestrafverfolgung-user-roles-prefix{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-magischestrafverfolgung-user-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-magischestrafverfolgung-user-text-name{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-magischestrafverfolgung-user-text-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+.team-magischestrafverfolgung-user-text-sm {
+    display: block;
+    font-size: 20px;
+}
+
+/*Minister ENDE*/
+
+/*ROLLEN ENDE*/
+
+.team-tagesprophet {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    z-index: 1;
+    display: block;
+    background-color: #ffffff;
+}
+.team-tagesprophet-role-desciption {
+    font-family: "Bitter";
+}
+.team-tagesprophet-role-desciption h3 {
+    font-family: "Merriweather";
+    color: rgb(144, 11, 11);
+    font-weight: 900;
+    font-size: 35px;
+    display: inline-block;
+    font-style: "normal";
+    text-decoration-color: red;
+    margin-top: 0px;
+}
+.team-tagesprophet-role-desciption h3:hover {
+    font-family: "Merriweather";
+    color: rgb(222, 29, 29);
+    font-weight: 900;
+    font-size: 35px;
+    display: inline-block;
+    font-style: "normal";
+    text-decoration-color: red;
+    margin-top: 0px;
+}
+.team-tagesprophet-user-all {
+    display: block;
+    text-align: center;
+}
+.team-tagesprophet-user-profile {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    align-items: center;
+}
+.team-tagesprophet-user-skin{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    align-items: center;
+    height: 265px;
+    width: 200px;
+    display: block;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.team-tagesprophet-user-roles-prefix{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-tagesprophet-user-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-tagesprophet-user-text-name{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.team-tagesprophet-user-text-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+.team-tagesprophet-user-text-sm {
+    display: block;
+    font-size: 20px;
+}
+
+/*Minister ENDE*/
